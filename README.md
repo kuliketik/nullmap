@@ -1,0 +1,3 @@
+# nullmap
+
+map*thing
