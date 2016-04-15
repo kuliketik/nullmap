@@ -1,12 +1,10 @@
-# nullmap
+# about
 
-map*thing
+serving static HTML integrated with Google Maps JavaScript API
 
-# how to contribute
+# howto
 
-- clone this repository
-- create a new branch
-- send a pull request
-- done :)
-
+- npm install -g express
+- node apps.js
+- open: [localhost:8080](http://localhost:8080)
 

@@ -1,0 +1,25 @@
+{
+  "name": "nullmap",
+  "version": "1.0.0",
+  "description": "realtimeapp",
+  "main": "node/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/null-id/nullmap.git"
+  },
+  "keywords": [
+    "map"
+  ],
+  "author": "vickydasta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/null-id/nullmap/issues"
+  },
+  "homepage": "https://github.com/null-id/nullmap#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

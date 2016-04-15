@@ -1,1 +1,1 @@
-web: node nodea/app.js
+web: node app.js
