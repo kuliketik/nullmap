@@ -2,11 +2,11 @@
 var express = require("express"); 
 var app = express();
 
-app.set('port' (process.env.PORT || 5000);
-app.set('views', __dirname+'/static'));
+app.set('port' ,(process.env.PORT || 5000));
+app.use(express.static(__dirname+'/static'))
 
-app.get('/', funtion(req, res){
-	res.render('static/index.html')
+app.use('/', function(req, res){
+	res.render('index.html');
 });
 
 app.listen(app.get('port'), function(){
